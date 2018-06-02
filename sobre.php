@@ -12,7 +12,7 @@
 			<div role="main" class="main">
 				<div class="slider-container rev_slider_wrapper" style="height: 700px;">
 					
-					<div id="revolutionSlider" class="slider rev_slider" data-plugin-revolution-slider data-plugin-options="{'delay': 9000, 'gridwidth': [800,800,500,400], 'gridheight': [900,900,500,500]}">
+					<div id="revolutionSlider" class="slider rev_slider" data-plugin-revolution-slider data-plugin-options="{'delay': 9000, 'gridwidth': [800,800,500,400], 'gridheight': [750,900,500,500]}">
 						<ul>
 							<li data-transition="fade">
 								<img src="img/slides/new-black-2-anos.jpg"  
@@ -23,8 +23,8 @@
 									class="rev-slidebg">
 
 								<div class="tp-caption"
-									data-x="center" data-hoffset="-460"
-									data-y="center" data-voffset="175"
+									data-x="center" data-hoffset="0"
+									data-y="center" data-voffset="320"
 									data-start="1000"
 									style="z-index: 5"
 									data-transform_in="x:[-300%];opacity:0;s:500;"><img src="img/Mouse-de-rolagem.png" alt=""></div>
@@ -34,12 +34,12 @@
 						</ul>
 					</div>
 				</div>
-				<div class="container">
-					<section class="section section-default">
+				<div class="container-fluid">
+					<section class="section section-light">
 						<div class="container">
 							<div class="row">
 								<div class="col-md-12 txtcenter appear-animation" data-appear-animation="fadeIn" data-appear-animation-delay="100" data-appear-animation-duration="1s">
-									<h2 class="mb-0 bold">A NEW BLACK</h2>
+									<h2 class="mb-0 bold text-color-dark">A NEW BLACK</h2>
 									<div class="row">
 										<div class="col-md-12 mt-md">
 											<p class="">Somos uma agência 360° que transforma ideias em comunicação eficiente, marcas em cases e estratégia em resultados. O nosso New Black é muito mais do que básico, é imponente. E se sua empresa pode melhorar a vida das pessoas com produtos e serviços, a gente pode contar essa história e torná-la inesquecível.</p>

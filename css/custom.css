@@ -802,7 +802,8 @@ table tr > td > img {
     max-width:170px;
 }
 .servicos-img img{
-    background-color:#312f30;
+    background-color: #302e2f;
+    border-radius: 100%;
 }
 .servicos-img{
     position:relative;
@@ -847,9 +848,10 @@ table tr > td > img {
 .sobre-img:nth-child(2) .seta-fora{
     background:url(../img/icons/seta-fora.png) no-repeat;
     position:absolute;
-    padding:150px 30px;
-    margin-top:180px;
-    margin-left:0px;
+    padding: 170px 30px;
+    margin-top: 145px;
+    margin-left: -35px;
+    background-size: 100% 100%;
 }
 .sobre-img:nth-child(2) .seta-dentro-top-1{
     background:url(../img/icons/seta-dentro.png) no-repeat;
@@ -871,33 +873,28 @@ table tr > td > img {
 }
 
 .sobre-img:nth-child(4) .seta-dentro-bottom-1{
-    background:url(../img/icons/seta-dentro.png) no-repeat;
+    background: url(../img/seta-bottom-left.png) no-repeat;
     position:absolute;
-    background-size:250px;
-    padding:40px 90px;
-    
-    transform:rotate(-20deg);
-
-    margin-top:70px;
+    background-size: 100%;
+    padding: 64px 90px;
+    margin-top: 40px;
     margin-left:310px;
 }
 .sobre-img:nth-child(4) .seta-dentro-bottom-2{
-    background:url(../img/icons/seta-dentro.png) no-repeat;
+    background: url(../img/seta-bottom-r.png) no-repeat;
     position:absolute;
-    background-size:250px;
-    padding:35px 90px;
-    transform:rotate(-20deg);
-    margin-top:40px;
-    margin-left:690px;
+    background-size: 100%;
+    padding: 50px 90px;
+    margin-top: 60px;
+    margin-left: 680px;
 }
 .sobre-img:nth-child(2) .seta-fora-2{
-    background:url(../img/icons/seta-fora.png) no-repeat;
+    background: url(../img/seta-left.png) no-repeat;
     position:absolute;
-    padding:150px 30px ;
-    transform:rotate(175deg);
-    margin-top:180px;
-    margin-left:1100px;
-
+    padding: 170px 30px;
+    margin-top: 130px;
+    margin-left: 1130px;
+    background-size: 100% 100%;
 }
 .portifa section{
     padding: 120px 0;
@@ -967,4 +964,7 @@ table tr > td > img {
       .servicos-img img{
           background:rgba(0,0,0,0);
       }
+}
+body{
+    background-color:#fff!important;
 }

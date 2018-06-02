@@ -12,7 +12,7 @@
 			<div role="main" class="main">
 				<div class="slider-container rev_slider_wrapper" style="height: 700px;">
 					
-					<div id="revolutionSlider" class="slider rev_slider" data-plugin-revolution-slider data-plugin-options="{'delay': 9000, 'gridwidth': [800,800,500,400], 'gridheight': [900,900,500,500]}">
+					<div id="revolutionSlider" class="slider rev_slider" data-plugin-revolution-slider data-plugin-options="{'delay': 9000, 'gridwidth': [800,800,500,400], 'gridheight': [750,750,500,500]}">
 						<ul>
 							<li data-transition="fade">
 								<img src="img/slides/new-black-servisos.jpg"  
@@ -23,8 +23,8 @@
 									class="rev-slidebg">
 
 								<div class="tp-caption"
-									data-x="center" data-hoffset="-460"
-									data-y="center" data-voffset="175"
+									data-x="center" data-hoffset="0"
+									data-y="center" data-voffset="320"
 									data-start="1000"
 									style="z-index: 5"
 									data-transform_in="x:[-300%];opacity:0;s:500;"><img src="img/Mouse-de-rolagem.png" alt=""></div>
@@ -35,7 +35,7 @@
 					</div>
 				</div>
 				<div class="container-fluid p-none">
-					<section class="section section-default">
+					<section class="section section-light">
 						<div class="container">
 							<div class="row">
 								<div class="col-md-12 appear-animation" data-appear-animation="fadeIn" data-appear-animation-delay="300" data-appear-animation-duration="1s">
@@ -45,7 +45,7 @@
 											<img src="img/icons/servicos-icone-1.png" alt="" class="img-responsive margin-auto">
 										</div>
 										<div class="col-md-8 mt-md">
-											<h2 class="mb-0 bold">BRANDING</h2>
+											<h2 class="mb-0 bold text-color-dark">BRANDING</h2>
 											<p class="lead">Uma personalidade definida e uma comunicação que conversa diretamente com o público atrai, inspira e se destaca.</p>
 											<p class="lead">Por isso com desde o seu logo, passando por toda sua identidade visual e uma linguagem adequada podemos construir muito mais do que uma marca para a sua empresa.</p>
 										</div>
@@ -78,7 +78,7 @@
 							
 						</div>
 					</section>
-					<section class="section section-default">
+					<section class="section section-light">
 						<div class="container">
 							<div class="row">
 								<div class="col-md-12 appear-animation" data-appear-animation="fadeIn" data-appear-animation-delay="300" data-appear-animation-duration="1s">
@@ -88,7 +88,7 @@
 											<img src="img/icons/servicos-icone-3.png" alt="" class="img-responsive margin-auto">
 										</div>
 										<div class="col-md-8 mt-md">
-											<h2 class="mb-0 bold">CRIAÇÃO E DESIGN</h2>
+											<h2 class="mb-0 bold text-color-dark">CRIAÇÃO E DESIGN</h2>
 											
 											<p class="lead">Com estratégia, pesquisa e criatividade, tornamos sua marca única, criando uma experiência inesquecível e marcante para o seu público.</p>
 										</div>
@@ -120,7 +120,7 @@
 							
 						</div>
 					</section>
-					<section class="section section-default">
+					<section class="section section-light">
 						<div class="container">
 							<div class="row">
 								<div class="col-md-12 appear-animation" data-appear-animation="fadeIn" data-appear-animation-delay="300" data-appear-animation-duration="1s">
@@ -130,7 +130,7 @@
 											<img src="img/icons/servicos-icone-5.png" alt="" class="img-responsive margin-auto">
 										</div>
 										<div class="col-md-8 mt-md">
-											<h2 class="mb-0 bold">MÍDIAS SOCIAIS</h2>
+											<h2 class="mb-0 bold text-color-dark">MÍDIAS SOCIAIS</h2>
 											<p class="lead">Criar experiencias e construir relacionamentos trazem engajamento real, para transformar isso em resultados reais. </p>
 											<p class="lead">
 											Sejam eles na construção da sua marca ou em conversão de vendas. E a gente sabe muito bem como fazer isso com as mídias sociais.</p>

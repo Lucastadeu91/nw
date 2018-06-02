@@ -12,7 +12,7 @@
 			<div role="main" class="main">
 				<div class="slider-container rev_slider_wrapper" style="height: 700px;">
 					
-					<div id="revolutionSlider" class="slider rev_slider" data-plugin-revolution-slider data-plugin-options="{'delay': 9000, 'gridwidth': [800,800,500,400], 'gridheight': [1080,900,500,500]}">
+					<div id="revolutionSlider" class="slider rev_slider" data-plugin-revolution-slider data-plugin-options="{'delay': 9000, 'gridwidth': [800,800,500,400], 'gridheight': [750,900,500,500]}">
 						<ul>
 							<li data-transition="fade">
 								<img src="img/slides/new-black-banner.jpg"  
@@ -23,14 +23,14 @@
 									class="rev-slidebg">
 
 								<div class="tp-caption"
-									data-x="center" data-hoffset="-460"
-									data-y="center" data-voffset="175"
+									data-x="center" data-hoffset="0"
+									data-y="center" data-voffset="320"
 									data-start="1000"
 									style="z-index: 5"
 									data-transform_in="x:[-300%];opacity:0;s:500;"><img src="img/Mouse-de-rolagem.png" alt=""></div>
 
 							</li>
-							<li data-transition="fade">
+							<li data-transition="fade" data-link="sobre.php">
 								<img src="img/slides/new-black-banner-2.jpg"  
 									alt=""
 									data-bgposition="center center" 
@@ -39,14 +39,14 @@
 									class="rev-slidebg">
 
 								<div class="tp-caption"
-									data-x="center" data-hoffset="-460"
-									data-y="center" data-voffset="175"
+									data-x="center" data-hoffset="0"
+									data-y="center" data-voffset="320"
 									data-start="1000"
 									style="z-index: 5"
-									data-transform_in="x:[-300%];opacity:0;s:500;"><img src="img/Mouse-de-rolagem.png" alt=""></div>
+									data-transform_in="x:[-300%];opacity:0;s:500;"><img src="img/Mouse-de-rolagem-black.png" alt=""></div>
 
 							</li>
-							<li data-transition="fade">
+							<li data-transition="fade" data-link="portifa.php">
 								<img src="img/slides/new-black-banner-3.jpg"  
 									alt=""
 									data-bgposition="center center" 
@@ -55,8 +55,8 @@
 									class="rev-slidebg">
 
 								<div class="tp-caption"
-									data-x="center" data-hoffset="-460"
-									data-y="center" data-voffset="175"
+									data-x="center" data-hoffset="0"
+									data-y="center" data-voffset="320"
 									data-start="1000"
 									style="z-index: 5"
 									data-transform_in="x:[-300%];opacity:0;s:500;"><img src="img/Mouse-de-rolagem.png" alt=""></div>
@@ -66,30 +66,30 @@
 						</ul>
 					</div>
 				</div>
-				<div class="container">
-					<section class="section section-default">
+				<div class="container-fluid p-none">
+					<section class="section section-light">
 						<div class="container">
 							<div class="row">
 								<div class="col-md-12 txtcenter">
-									<h2 class="mb-0 bold">VEJA QUEM JÁ É NEW BLACK</h2>
+									<h2 class="mb-0 bold text-color-dark">VEJA QUEM JÁ É NEW BLACK</h2>
 									<div class="row">
 										<div class="col-md-12 mt-md">
 											
 											<div class="owl-carousel owl-theme stage-margin" data-plugin-options="{'items': 5, 'margin': 10, 'loop': false, 'nav': true, 'dots': false, 'stagePadding': 40}">
 												<div>
-													<img alt="" class="img-responsive marginauto" src="img/nw-clientes-rap-descarte-certo.png">
+													<img alt="" class="img-responsive marginauto" src="img/slides/icones/icone-1.png">
 												</div>
 												<div>
-													<img alt="" class="img-responsive marginauto" src="img/nw-clientes-rap-burguer.png">
+													<img alt="" class="img-responsive marginauto" src="img/slides/icones/icone-2.png">
 												</div>
 												<div>
-													<img alt="" class="img-responsive marginauto" src="img/nw-clientes-rap-rede-de-profissionais-negros.png">
+													<img alt="" class="img-responsive marginauto" src="img/slides/icones/icone-3.png">
 												</div>
 												<div>
-													<img alt="" class="img-responsive marginauto" src="img/nw-clientes-rap-tractus-print.png">
+													<img alt="" class="img-responsive marginauto" src="img/slides/icones/icone-4.png">
 												</div>
 												<div>
-													<img alt="" class="img-responsive marginauto" src="img/nw-clientes-rap-ewa.png">
+													<img alt="" class="img-responsive marginauto" src="img/slides/icones/icone-5.png">
 												</div>
 												
 											</div>
@@ -99,7 +99,7 @@
 							</div>
 							<div class="row">
 								<div class="col-md-12 txtcenter mt-md">
-									<div class="btn btn-secondary" style="border-radius: 100px;"><h3 class="mb-none text-color-primary"><a href="portifa.php">SAIBA MAIS</a></h3></div>
+									<div class="btn btn-secondary" style="border-radius: 100px;"><h3 class="mb-none text-color-primary"><a href="portfa.php">SAIBA MAIS</a></h3></div>
 								</div>
 							</div>
 						</div>
@@ -153,9 +153,9 @@
 							<div class="nivo-slider">
 								<div class="slider-wrapper theme-default">
 									<div id="nivoSlider" class="nivoSlider mt-none">
-										<img src="img/slides/banner-cliente-1.jpg" data-thumb="img/slides/banner-cliente-1.jpg" alt="" />
-										<img src="img/slides/banner-cliente-2.jpg" data-thumb="img/slides/banner-cliente-1.jpg" alt="" />
-										<img src="img/slides/banner-cliente-3.jpg" data-thumb="img/slides/banner-cliente-1.jpg" alt="" />
+										<a href="portfa.php"><img src="img/slides/banner-cliente-1.jpg" data-thumb="img/slides/banner-cliente-1.jpg" alt="" /></a>
+										<a href="portfa.php"><img src="img/slides/banner-cliente-2.jpg" data-thumb="img/slides/banner-cliente-1.jpg" alt="" /></a>
+										<a href="portfa.php"><img src="img/slides/banner-cliente-3.jpg" data-thumb="img/slides/banner-cliente-1.jpg" alt="" /></a>
 										
 										
 									</div>
@@ -169,7 +169,7 @@
 					<div class="row">
 						<div class="col-md-12">
 							<div class="row">
-								<div class="form-group news txtcenter mt-xlg">
+								<div class="form-group news txtcenter mt-xlg mb-xlg pb-sm">
 									<div class="col-xs-8 col-md-8 col-md-offset-1 pr-none">
 										<form id="contactNews" method="POST">
 											<input data-obrigatorio type="text" data-email='true' name="news" placeholder="Receba nossas news" class="form-control input-lg newsInput">

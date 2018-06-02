@@ -12,7 +12,7 @@
 			<div role="main" class="main">
 				<div class="slider-container rev_slider_wrapper" style="height: 700px;">
 					
-					<div id="revolutionSlider" class="slider rev_slider" data-plugin-revolution-slider data-plugin-options="{'delay': 9000, 'gridwidth': [800,800,500,400], 'gridheight': [900,900,500,500]}">
+					<div id="revolutionSlider" class="slider rev_slider" data-plugin-revolution-slider data-plugin-options="{'delay': 9000, 'gridwidth': [800,800,500,400], 'gridheight': [750,750,500,500]}">
 						<ul>
 							<li data-transition="fade">
 								<img src="img/slides/contato.jpg"  
@@ -23,8 +23,8 @@
 									class="rev-slidebg">
 
 								<div class="tp-caption"
-									data-x="center" data-hoffset="-460"
-									data-y="center" data-voffset="175"
+									data-x="center" data-hoffset="0"
+									data-y="center" data-voffset="320"
 									data-start="1000"
 									style="z-index: 5"
 									data-transform_in="x:[-300%];opacity:0;s:500;"><img src="img/Mouse-de-rolagem.png" alt=""></div>

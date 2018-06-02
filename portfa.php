@@ -12,7 +12,7 @@
 			<div role="main" class="main">
 				<div class="slider-container rev_slider_wrapper" style="height: 700px;">
 					<!-- 1240, 1024, 778, 480 -->
-					<div id="revolutionSlider" class="slider rev_slider" data-plugin-revolution-slider data-plugin-options="{'delay': 9000, 'gridwidth': [800,800,500,400], 'gridheight': [900,900,500,500]}">
+					<div id="revolutionSlider" class="slider rev_slider" data-plugin-revolution-slider data-plugin-options="{'delay': 9000, 'gridwidth': [800,800,500,400], 'gridheight': [750,750,500,500]}">
 						<ul>
 							<li data-transition="fade">
 								<img src="img/slides/new-black-portifa.jpg"  
@@ -23,11 +23,11 @@
 									class="rev-slidebg">
 
 								<div class="tp-caption"
-									data-x="center" data-hoffset="-460"
-									data-y="center" data-voffset="175"
+									data-x="center" data-hoffset="0"
+									data-y="center" data-voffset="320"
 									data-start="1000"
 									style="z-index: 5"
-									data-transform_in="x:[-300%];opacity:0;s:500;"><img src="img/Mouse-de-rolagem-black.png" alt=""></div>
+									data-transform_in="x:[-300%];opacity:0;s:500;"><img src="img/Mouse-de-rolagem.png" alt=""></div>
 
 							</li>
 							
@@ -42,7 +42,7 @@
 									<div class="row">
 										<div class="col-md-12 txtcenter">
 											<img alt="" class="img-responsive marginauto " style="position: relative; top:10px;" src="img/nw-clientes-rap-burguer-white.png">
-											<div class="btn btn-light mt-xlg" style="position: relative; top:10px;"><a href="#" class="text-color-dark">Ver Case</a></div>
+											<div class="btn btn-light mt-xlg" style="position: relative; top:10px;"><a href="#" data-toggle="tooltip" data-placement="bottom" title="Em breve" data-plugin-tooltip type="button" class="text-color-dark">Ver Case</a></div>
 										</div>
 									</div>
 								</div>
@@ -54,7 +54,7 @@
 									<div class="row">
 										<div class="col-md-12 txtcenter">
 											<img alt="" class="img-responsive marginauto " src="img/nw-clientes-rap-ewa-white.png">
-											<div class="btn btn-light mt-xlg"><a href="#" class="text-color-dark">Ver Case</a></div>
+											<div class="btn btn-light mt-xlg"><a href="#" data-toggle="tooltip" data-placement="bottom" title="Em breve" data-plugin-tooltip type="button" class="text-color-dark">Ver Case</a></div>
 										</div>
 									</div>
 								</div>
@@ -68,7 +68,7 @@
 									<div class="row">
 										<div class="col-md-12 txtcenter">
 											<img alt="" class="img-responsive marginauto " src="img/nw-clientes-rap-descarte-certo-white.png">
-											<div class="btn btn-light mt-xlg"><a href="#" class="text-color-dark">Ver Case</a></div>
+											<div class="btn btn-light mt-xlg"><a href="#" data-toggle="tooltip" data-placement="bottom" title="Em breve" data-plugin-tooltip type="button" class="text-color-dark">Ver Case</a></div>
 										</div>
 									</div>
 								</div>
@@ -80,7 +80,7 @@
 									<div class="row">
 										<div class="col-md-12 txtcenter">
 											<img alt="" class="img-responsive marginauto " src="img/nw-clientes-rap-tractus-print-white.png">
-											<div class="btn btn-light mt-xlg"><a href="#" class="text-color-dark">Ver Case</a></div>
+											<div class="btn btn-light mt-xlg"><a href="#" data-toggle="tooltip" data-placement="bottom" title="Em breve" data-plugin-tooltip type="button" class="text-color-dark">Ver Case</a></div>
 										</div>
 									</div>
 								</div>
@@ -91,20 +91,7 @@
 				
 				
 
-				<div class="container-fluid hidden-md hidden-lg">
-					<div class="row">
-						<div class="col-md-12 p-none">
-							<div class="nivo-slider">
-								<div class="slider-wrapper theme-default">
-									<div id="nivoSlider" class="nivoSlider mt-none">
-										<img src="img/slides/new-black-como-pensamos.jpg" data-thumb="new-black-como-pensamos" alt="" />
-									</div>
-									<div id="htmlcaption" class="nivo-html-caption"></div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
+				
 				
 				
 			</div>
